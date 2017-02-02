@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation-name: mymove; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+</style>
 
 
 
@@ -73,29 +96,7 @@ table {
     }}
 </script>
                                          <center><h1>Regstration form</h1></center>
-                                         <style> 
-div {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    -webkit-animation: mymove infinite; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
-    animation: mymove infinite;
-    animation-duration: 2s;
-}
-
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
-}
-
-@keyframes mymove {
-    from {top: 0px;}
-    to {top: 200px;}
-}
-</style>
+                                         
 <form id="pox" action="inserta.php" method="get" onsubmit="return validate()">
 <table>
             <tr>

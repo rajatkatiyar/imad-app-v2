@@ -1,9 +1,95 @@
 <!DOCTYPE html>
 <html>
-    <body>
-        
-        
-        <h1>litrature club
-        </h1>
-    </body>
+<head>
+
+
+
+
+                    <script>
+                    var e=document.getElementById("poi");
+                   e.style.fontSize="50px";
+                   e.style.color="red";
+                   var e=document.getElementById("po");
+                  e.style.fontSize="15px";
+                 e.style.color="black";
+                 </script>
+</head>
+<body bgcolor="1689f3">
+    <hr>
+
+<titel id="poi" ><img src="E:\fun pic\family pic\bittu\Photo0476.jpg" heigth="80" width="80"  align="top"> <center>Central Board of Secondry Education</center></titel><br>
+<titel id="po"><center>(112/16 vikrmaditya marg kannat place new delhi)</center></titel>
+
+<table>
+  <tr><td><a href="default.asp">Home</a></td>
+  <td><a href="news.asp">News</a></td><td>   </td>
+  <td><a href="contact.asp">Contact</a></td>
+  <td><a href="about.asp">About</a></td>
+   </tr>
+</table>
+<style>
+table {
+    list-style-type: none;
+    margin: 15;
+    padding: 50;
+    width: 100%;
+    background-color: #f45689;
+    height: 1%; /* Full height */
+    position: scroll; /* Make it stick, even on scroll */
+\   overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}</style>
+<marquee>this is official website</marquee>
+                                                                                                        <script type="text/javascript">
+                                                                                                      function vali()
+																									   {
+    var inpObj = document.getElementById("pass");
+    if (inpObj.checkValidity() == false||inpobj.value<8) {
+        document.getElementById("demo").innerHTML = inpObj.validationMessage;
+    }}
+</script>
+                                         <center><h1>Regstration form</h1></center>
+<form id="pox" action="inserta.php" method="get" onsubmit="return validate()">
+<table>
+            <tr>
+            <td> username</td>
+            <td><input type="username" name="username"/></td>
+            </tr>
+
+             <tr>
+             <td>     password</td><td><input type="password" id="pass" name="password" required/></td>
+           </tr>
+
+            <tr>    <td>  branch</td><td><input type="text" name="branch"/></td>
+            </tr>
+
+              <tr>       <td>gender</td><td><input type="radio" value="m" name="gender"/>M</td>
+               <td> <input type="radio" value="f"  name="gender"/>F</td>
+              </tr>
+
+             <tr><td>course</td><td><input type="checkbox" name="php"/>php</td>
+             <td> <input type="checkbox" name="css" />css</td>
+            </tr>
+            <tr><td nmae="city">city</td>
+            <td><select>
+           <option>kanpur</option>
+            <option>lucknow</option>
+             <option>delhi</option>
+            <option>chennai</option>
+           </select></td></tr>
+             <tr><td> email</td>
+            <td><input type="email" required/></td></tr>
+            <tr><td colspan="2"><input type="submit" onclick="vali()" value="register" />
+            <input type="reset" /></td></tr>
+</table>
+</form>
+<style type="text/css">
+tr{ font-size:30px;
+}
+input{ font-size:20px;
+}
+</style>
+<p>this is official website of CBSC please select the proper path to perform desired action</p>
+<p id="demo"></p>
+</body>
+
 </html>
